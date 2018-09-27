@@ -1,22 +1,22 @@
 #!/bin/bash
 
 if [ -z $1 ]; then
-	echo 'Usage: sirius-hla-docker.sh AppName'
-	echo 'Applications:'
+  echo 'Usage: sirius-hla-docker.sh AppName'
+  echo 'Applications:'
   echo '  as-ma-launcher'
-	echo '  as-ps-launcher'
-	echo '  tb-ap-posang'
+  echo '  as-ps-launcher'
+  echo '  tb-ap-posang'
   echo '  bo-ap-chromcorr'
   echo '  bo-ap-currlt'
   echo '  bo-ap-tunecorr'
   echo '  bo-ap-confmgr'
   echo '  bo-ap-ramp'
-	echo '  ts-ap-posang'
-	echo '  si-ap-chromcorr'
+  echo '  ts-ap-posang'
+  echo '  si-ap-chromcorr'
   echo '  si-ap-currlt'
   echo '  si-ap-sofb'
-	echo '  si-ap-tunecorr'
-	exit 1
+  echo '  si-ap-tunecorr'
+  exit 1
 fi
 
 # EPICS_CA_AUTO_ADDR_LIST=NO
